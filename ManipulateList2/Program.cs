@@ -56,7 +56,10 @@ namespace ManipulateList2
                 {                    
                     Console.Write($"{groceries[i]} , ");
                 }
-            }
+                Console.WriteLine();
+                Console.Out.NewLine = "\r\n\r\n";
+                }
+
         }
     }
 }
